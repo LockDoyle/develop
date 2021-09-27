@@ -1,0 +1,1 @@
+print('helloworld') # Standard Output
