@@ -5,7 +5,7 @@ class test():
 		self.strA = 'test'
 		
 	def main(self):
-		self.math()
+		self.rooptest(self.math())
 
 	def math(self):
 		a:int
@@ -17,5 +17,12 @@ class test():
 		print(a * b)
 		print(self.strA)
 		
+		return a * b
+		
+	def rooptest(self,in_a):
+		for num in range(in_a):
+			print(num)
+	
+	
 t=test() # ()がないと、暗黙的にselfが引数に設定されない test()が正解
 t.main()
