@@ -1,0 +1,2 @@
+githubでユーザー名とパスワードを毎回聞かれる問題解消
+https://qiita.com/non0311/items/03e3e7a042f70f072286
