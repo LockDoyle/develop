@@ -31,4 +31,13 @@ print(a.T)
 
 print("")
 print("■構築関数")
-print(np.arange(0,10,2))
+#arrange(開始値,終了値,刻み)
+print(np.arange(0,10,3))
+
+#linspace(開始値,終了値,分割)
+print(np.linspace(0,1,5))
+
+#zeros(長さ,長さ...) 最後が要素数?
+print(np.zeros((1,3,4))) 
+#oness(長さ,長さ...)
+print(np.ones((4,3,1))) 
