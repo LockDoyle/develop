@@ -41,3 +41,7 @@ print(np.linspace(0,1,5))
 print(np.zeros((1,3,4))) 
 #oness(長さ,長さ...)
 print(np.ones((4,3,1))) 
+
+#random.randは、0以上1未満の乱数からなる配列を生成する。
+print(np.random.rand(4))
+print(np.random.rand(4,4,4))
