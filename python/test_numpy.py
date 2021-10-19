@@ -45,3 +45,10 @@ print(np.ones((4,3,1)))
 #random.randは、0以上1未満の乱数からなる配列を生成する。
 print(np.random.rand(4))
 print(np.random.rand(4,4,4))
+
+#インデックスアクセス
+t1 = np.arange(3)
+print(t1)
+print(t1[-2])
+t1[-2]=10
+print(t1[-2])
