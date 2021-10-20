@@ -52,3 +52,8 @@ print(t1)
 print(t1[-2])
 t1[-2]=10
 print(t1[-2])
+
+
+#スライス
+t2 = np.arange(5)
+print(t2[2:4])
